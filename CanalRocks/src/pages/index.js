@@ -5,6 +5,6 @@ import Video from "../components/video"
 
 export default function Index() {
   return (
-    <Header />
+    <Video />
   )
 }
