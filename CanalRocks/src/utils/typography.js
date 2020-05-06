@@ -1,11 +1,21 @@
 import Typography from "typography"
 
 const typography = new Typography({
-    baseFontSize: '24px',
-    baseLineHeight: 1.5,
-    headerFontFamily: ['Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+    baseFontSize: '16px',
+    baseLineHeight: 2,
+    headerFontFamily: ['Source Sans Pro', 'Helvetica', 'Arial', 'sans-serif'],
     bodyFontFamily: ['Georgia', 'serif'],
     // See below for the full list of options.
+
+    googleFonts: [
+      {
+        name: 'Source Sans Pro',
+        styles: [
+          '400',
+        ],
+      },
+    ],
+
   })
 
 // Export helper functions

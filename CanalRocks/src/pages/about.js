@@ -1,13 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
+import Video from "../components/video"
 
-export default function About() {
+export default function Home() {
   return (
     <Layout>
-      <h1>About me</h1>
-      <p>
-        I’m good enough, I’m smart enough, and gosh darn it, people like me!
-      </p>
+        <Video />
+        <h1>This the about page...</h1>
     </Layout>
-  )
+  );
 }

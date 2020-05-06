@@ -1,13 +1,13 @@
 import React from "react"
+
+import { Link } from "gatsby"
+
 import containerStyles from "./container.module.css"
 
 export default function Layout({ children }) {
   return (
     <div className={containerStyles.container}>
-      <h1>Canal Rocks</h1>
-      <h1>SpatialCo</h1>
-      <h1>About</h1>
-      <h1>Contact</h1>
+      <Link to="/index"><h1>Canal Rocks</h1></Link>
       {children}
     </div>
   )
