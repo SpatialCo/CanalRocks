@@ -1,10 +1,11 @@
 import React from "react"
-
-import Header from "../components/header"
+import Layout from "../components/layout"
 import Video from "../components/video"
 
-export default function Index() {
+export default function Home() {
   return (
-    <Video />
-  )
+    <Layout>
+        <Video />
+    </Layout>
+  );
 }
