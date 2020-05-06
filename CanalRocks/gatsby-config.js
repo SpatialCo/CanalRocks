@@ -6,5 +6,14 @@
 
 module.exports = {
   pathPrefix: "/CanalRocks",
-  plugins: [],
+  plugins: [
+
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+
+  ],
 }
