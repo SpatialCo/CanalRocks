@@ -5,7 +5,7 @@ import Video from "../components/video"
 export default function Home() {
   return (
     <Layout>
-        <Video />
+      <Video />
     </Layout>
-  );
+  )
 }

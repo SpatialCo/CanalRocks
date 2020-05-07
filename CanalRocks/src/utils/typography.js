@@ -3,13 +3,13 @@ import Typography from "typography"
 const typography = new Typography({
     baseFontSize: '16px',
     baseLineHeight: 2,
-    headerFontFamily: ['Source Sans Pro', 'Helvetica', 'Arial', 'sans-serif'],
-    bodyFontFamily: ['Georgia', 'serif'],
+    headerFontFamily: ['Space Mono', 'Helvetica', 'Arial', 'sans-serif'],
+    bodyFontFamily: ['Space Mono', 'Helvetica', 'Arial', 'sans-serif'],
     // See below for the full list of options.
 
     googleFonts: [
       {
-        name: 'Source Sans Pro',
+        name: 'Space Mono',
         styles: [
           '400',
         ],
