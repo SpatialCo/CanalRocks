@@ -6,11 +6,26 @@ export default function Home() {
   return (
     <Layout>
       <Video />
-      <h1>I'd love to talk! Email me at the address below</h1>
-      <h1>This is a test of the contact page.</h1>
-      <p>
-        <a href="mailto:me@example.com">me@example.com</a>
-      </p>
+      <form method="post" action="#" style={{ width: '48%', }}>
+      <label>
+        Name
+        <input type="text" name="name" id="name" style={{ width: '100%', border: '1px solid #dddddd', }} />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" id="email" style={{ width: '100%', border: '1px solid #dddddd', }}/>
+      </label>
+      <label>
+        subject
+        <input type="text" name="subject" id="subject" style={{ width: '100%', border: '1px solid #dddddd', }}/>
+      </label>
+      <label>
+        message
+        <textarea name="message" id="message" rows="5" style={{ width: '100%', border: '1px solid #dddddd', }}/>
+      </label>
+      <button type="submit" style={{ width: '100%', border: '1px solid #dddddd', }}>submit</button>
+      <input type="reset" value="clear" style={{ width: '100%', border: '1px solid #dddddd', marginTop: '6px',}}/>
+    </form>
     </Layout>
   );
 }
